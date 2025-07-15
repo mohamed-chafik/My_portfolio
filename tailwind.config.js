@@ -4,8 +4,12 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                "lato": ["Rock Salt"]
-            }
+                "lato": ["Rock Salt"],
+                "Fira" : ["Fira Code"]            
+            },
+          backgroundImage: {
+              draw: "url('./src/assets/back.png')"
+          },
         },
     },
     plugins: [],

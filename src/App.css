@@ -3,6 +3,15 @@
   font-family: rocksalt;
   src: url("../src/assets/fonts/RockSalt-Regular.ttf");
 }
+@font-face{
+  font-family:firacode;
+  src: url("../src/assets/fonts/FiraCode-VariableFont_wght.ttf");
+}
 @theme{
   --font-rock : rocksalt;
+  --font-fira: firacode;
 }
+body{
+  height: 100%;
+}
+
