@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@font-face{
+  font-family: rocksalt;
+  src: url("../src/assets/fonts/RockSalt-Regular.ttf");
+}
+@theme{
+  --font-rock : rocksalt;
+}
