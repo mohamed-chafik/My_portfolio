@@ -5,10 +5,10 @@ module.exports = {
         extend: {
             fontFamily: {
                 "lato": ["Rock Salt"],
-                "Fira" : ["Fira Code"]            
+                "Fira" : ["Fira Code"],
+                "Acme" : ["Acme"]
             },
-          backgroundImage: {
-              draw: "url('./src/assets/back.png')"
+          
           },
         },
     },

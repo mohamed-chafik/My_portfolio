@@ -7,9 +7,14 @@
   font-family:firacode;
   src: url("../src/assets/fonts/FiraCode-VariableFont_wght.ttf");
 }
+@font-face{
+  font-family : acme;
+  src: url("../src/assets/fonts/Acme-Regular.ttf")
+}
 @theme{
   --font-rock : rocksalt;
   --font-fira: firacode;
+  --font-acme : acme;
 }
 body{
   height: 100%;
