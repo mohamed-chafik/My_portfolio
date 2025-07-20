@@ -1,0 +1,68 @@
+{
+  "skills":{
+  {
+    "name":"JavaScript",
+    "image": "image.png"
+  },
+  {
+    "name":"HTML",
+    "image": "image.png"
+  },
+{
+    "name":"CSS",
+    "image": "image.png"
+  },
+{
+    "name":"REACT Js",
+    "image": "image.png"
+  },
+  {
+    "name":"PYTHON",
+    "image": "image.png"
+  },
+    {
+    "name":"FLASK",
+    "image": "image.png"
+  }, 
+  {
+    "name":"SELENIUM",
+    "image": "image.png"
+  },
+  {
+    "name":"TAILWIND CSS",
+    "image": "image.png"
+  },
+  {
+    "name":"VITE",
+    "image": "image.png"
+  },
+  {
+    "name":"GIT",
+    "image": "image.png"
+  },
+  {
+    "name":"GITHUB",
+    "image": "image.png"
+  },
+   {
+    "name":"VITEST",
+    "image": "image.png"
+  },
+  {
+    "name":"VERCEL",
+    "image": "image.png"
+  },
+  {
+    "name":"NETLIFY",
+    "image": "image.png"
+  },
+  {
+    "name":"NPM",
+    "image": "image.png"
+  },
+  {
+    "name":"BOOTSTRAP",
+    "image": "image.png"
+  },
+  }
+}

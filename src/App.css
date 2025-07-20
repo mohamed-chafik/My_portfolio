@@ -9,12 +9,17 @@
 }
 @font-face{
   font-family : acme;
-  src: url("../src/assets/fonts/Acme-Regular.ttf")
+  src: url("../src/assets/fonts/Acme-Regular.ttf");
+}
+@font-face{
+  font-family: intel;
+  src: url("../src/assets/fonts/IntelOneMono-VariableFont_wght.ttf");
 }
 @theme{
   --font-rock : rocksalt;
   --font-fira: firacode;
   --font-acme : acme;
+  --font-intel:intel;
 }
 body{
   height: 100%;

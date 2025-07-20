@@ -6,7 +6,8 @@ module.exports = {
             fontFamily: {
                 "lato": ["Rock Salt"],
                 "Fira" : ["Fira Code"],
-                "Acme" : ["Acme"]
+                "Acme" : ["Acme"],
+                "Intel": ["Intel"]
             },
           
           },
