@@ -7,7 +7,8 @@ module.exports = {
                 "lato": ["Rock Salt"],
                 "Fira" : ["Fira Code"],
                 "Acme" : ["Acme"],
-                "Intel": ["Intel"]
+                "Intel": ["Intel"],
+                "Oswald": ["Oswald"]
             },
           
           },

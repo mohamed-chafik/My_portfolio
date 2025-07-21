@@ -15,11 +15,16 @@
   font-family: intel;
   src: url("../src/assets/fonts/IntelOneMono-VariableFont_wght.ttf");
 }
+@font-face{
+  font-family: oswald;
+  src: url("../src/assets/fonts/Oswald-Regular.ttf");
+}
 @theme{
   --font-rock : rocksalt;
   --font-fira: firacode;
   --font-acme : acme;
   --font-intel:intel;
+  --font-oswald:oswald;
 }
 body{
   height: 100%;
