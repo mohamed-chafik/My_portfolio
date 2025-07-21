@@ -4,13 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/header.jsx'
 import Content from './components/content.jsx'
+import Projects from './components/projects.jsx'
 function App() {
 
 
   return (
     <>
-    <Header/>
-    <Content/>
+      <Header></Header>
+      <Content/>
+      <Projects/>
+
+  
     </>
   )
 }

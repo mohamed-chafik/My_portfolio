@@ -1,21 +1,48 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTerminal } from '@fortawesome/free-solid-svg-icons';
+import React, {useState,useEffect} from 'react';
 function Content(){
+  const [data, setData] = useState([]);
+  const [error, setError] = useState(null);
+useEffect(()=>{
+    const fetchData = async ()=>{
+      try{
+        const response = await fetch('../skills.json');
+        console.log(response)
+        if(!response.ok){
+          throw new error('response not ok');
+        }
+        const skills = await response.json();
+        console.log(skills);
+        setData(skills);
+
+
+      }
+      catch(err){
+        setError(err.message);
+      }
+    }
+  fetchData();
+  }
+
+    ,[]);
   return <>
-    <section class="bg-[#ffffee] w-full h-[100vh]">
+    <section class=" w-full h-fit">
     <div class="w-full h-full">
-    <h2 class="font-acme text-4xl items-center flex pl-[17px]"><FontAwesomeIcon  icon={faTerminal} size="xs"/>Technical Skills</h2>
-    <div class="w-full h-[80vh] p-[75px] flex">
-    <div class="w-fit h-fit flex justify-center items-center  p-[12px] rounded-xl">
-            <img class="w-[36px]" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png"/>
-            <h2>React Js</h2>
-    </div> 
-    <div class="w-fit h-fit flex justify-center items-center  p-[12px] rounded-xl">
-            <img class="w-[36px]" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png"/>
-            <h2>React Js</h2>
-    </div> 
+    <h2 class="font-acme text-4xl items-center flex pl-[17px] text-white"><FontAwesomeIcon  icon={faTerminal} size="xs"/>Technical Skills</h2>
+    <div class="w-full h-fit p-[75px] flex flex-wrap justify-center">
+            {data.map((item) => (
+            <a class="w-fit h-fit flex justify-center items-center  p-[12px] m-[12px] rounded-md bg-[#ffffff0a] hover:bg-violet-600 cursor-pointer" >
+              <img class="w-[22px] h-[22px]" src={item.image}/>
+               <h2 class='font-fira font-bold pl-[7px] pr-[13px] text-white text-xs '>{item.name}</h2>
+            </a> 
+
+            ))}
+
+    
     </div>
-    </div>
+
+       </div>
     </section>
     </>
 }

@@ -23,5 +23,24 @@
 }
 body{
   height: 100%;
-}
+  margin: 0;
+  width: 100vw;
+  background-color: #201f26; /* slate-950 */
+  position: relative;
+  padding-left: 56px;
+  padding-right: 56px;
 
+}
+body::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-image: radial-gradient(
+    circle 500px at 50% 200px,
+    #3e3e3e,
+    transparent
+  );
+}
