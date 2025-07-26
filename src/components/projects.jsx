@@ -6,35 +6,66 @@ import React,{useState} from 'react'
 function Projects(){
     const [hoveredProject, setHoveredProject] = useState(null);
   return <>
-       <section class='w-full h-fit'>
-          <h2 class="font-acme text-4xl items-center flex pl-[17px] text-white mb-[20px]"><FontAwesomeIcon  icon={faTerminal} size="xs" class='text-[#00f050] w-[36px]'/>Projects</h2>
-         {projects.map((project) => (
-          <div class='w-full h-fit flex justify-evenly'>      
-      <div class='w-[65%]'>
-        <div id ='project' class='text-white border-b-[#3d3d3d] border-b border-solid w-full hover:text-[#00f050]'>
-          <div>
-            <h1 class='text-6xl font-oswald font-bold '>{project.Name}</h1>
-          </div>
-          <div>
-            <p class='fonr-intel text-[#afafaf]'><ul>
-              <li class='flex items-center'><FontAwesomeIcon icon={faCircle} class='w-[6px] mr-[4px] text-[#00f050]'/>React js</li>
-            </ul></p>
-            <span>
-              <a></a>
-            </span>
-          </div>
+         <section className='w-full h-fit'>
+      <h2 className="font-acme text-4xl items-center flex pl-[17px] text-white mb-[20px]">
+        <FontAwesomeIcon icon={faTerminal} size="xs" className='text-[#00f050] w-[36px]'/>
+        Projects
+      </h2>
+      
+      {/* Image preview container (fixed position) */}
+      <div className='w-full flex'>
+        <div className='w-[65%]'>
+          {projects.map((project) => (
+            <div 
+              key={project.id} 
+              className='w-full h-fit mb-8'
+              onMouseEnter={() => setHoveredProject(project.id)}
+              onMouseLeave={() => setHoveredProject(null)}
+            >
+              <div 
+                className={`text-white border-b-[#3d3d3d] border-b border-solid w-full pb-4 ${
+                  hoveredProject === project.id ? 'text-[#00f050]' : ''
+                }`}
+              >
+                <div>
+                  <h1 className='text-6xl font-oswald font-bold hover:text-[#00f050]'>{project.Name}</h1>
+                </div>
+                <div>
+                  <ul className='flex flex-wrap mt-2'>
+                    {project.stack.map((tech, index) => (
+                      <li key={index} className='flex items-center mr-5 mb-1'>
+                        <FontAwesomeIcon 
+                          icon={faCircle} 
+                          className='w-[6px] mr-[4px] text-[#00f050]'
+                        />
+                        {tech}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
-        </div> 
 
-        <div class='w-[30%] h-fit'>
-        <img src={project.Image} class='w-full h-full' alt=""/>
+        {/* Image container (fixed position) */}
+        <div className='w-[30%] sticky top-4 h-fit self-start'>
+          {projects.map((project) => (
+            <div 
+              key={project.id}
+              className={`transition-all duration-300 ${
+                hoveredProject === project.id ? 'opacity-100 block' : 'opacity-0 hidden'
+              }`}
+            >
+              <img 
+                src={project.image} 
+                className='w-full h-auto max-h-[400px] object-cover rounded-xl ml-[40px]' 
+                alt={`${project.Name} project preview`}
+              />
+            </div>
+          ))}
+        </div>
       </div>
-      </div>
-
-
-         ))}  
-    </section> 
-
-  </>
+    </section>  </>
 }
 export default Projects;

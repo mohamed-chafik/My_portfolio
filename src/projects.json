@@ -1,7 +1,26 @@
 [
   {
-    "Name" : "GITHUB",
-    "image" : "./assets/webpage.png",
-    "stack" : ["React Js","C++"]
+    "id" : 1,
+    "Name" : "Green Haven",
+    "image" : "../src/assets/greenhaven.png",
+    "stack" : ["HTML","CSS","JavaScript","API"]
+  },
+  {
+    "id" : 2,
+    "Name" : "EaroGames",
+    "image" : "../src/assets/earogames.png",
+    "stack" : ["HTML","CSS","JavaScript","API"]
+  },
+    {
+    "id" : 3,
+    "Name" : "loudly",
+    "image" : "../src/assets/loudly.png",
+    "stack" : ["React.js","Web Speech API","NewsAPI","Netlify"]
+  },
+ {
+    "id" : 4,
+    "Name" : "BookLet",
+    "image" : "../src/assets/booklet.png",
+    "stack" : ["Python","Flask","Open Library","Vercel"]
   }
 ]
