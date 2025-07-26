@@ -5,9 +5,9 @@ function Projects(){
   return <>
        <section class='w-full h-[100vh]'>
           <h2 class="font-acme text-4xl items-center flex pl-[17px] text-white mb-[20px]"><FontAwesomeIcon  icon={faTerminal} size="xs" class='text-[#00f050] w-[36px]'/>Technical Skills</h2>
-        <div class='text-white border-b-[#3d3d3d] border-b border-solid w-[65%]'>
+        <div id ='project' class='text-white border-b-[#3d3d3d] border-b border-solid w-[65%] hover:text-[#00f050]'>
           <div>
-            <h1 class='text-6xl font-oswald font-bold'>Projet Number 1</h1>
+            <h1 class='text-6xl font-oswald font-bold '>Projet Number 1</h1>
           </div>
           <div>
             <p class='fonr-intel text-[#afafaf]'><ul>
@@ -18,6 +18,9 @@ function Projects(){
             </span>
           </div>
         </div>
+        <div class='w-[30%] h-fit'>
+        <img src="#" class='w-full h-full' alt=""/>
+      </div>
         </section> 
 
   </>
