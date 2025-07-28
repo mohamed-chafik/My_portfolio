@@ -5,6 +5,7 @@ import './App.css'
 import Header from './components/header.jsx'
 import Content from './components/content.jsx'
 import Projects from './components/projects.jsx'
+
 function App() {
 
 
@@ -13,6 +14,7 @@ function App() {
       <Header></Header>
       <Content/>
       <Projects/>
+
 
   
     </>

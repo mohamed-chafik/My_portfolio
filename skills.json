@@ -13,7 +13,7 @@
   },
 {
     "name":"REACT Js",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlGmKtrnxElpqw3AExKXPWWBulcwjlvDJa1Q&s"
+    "image": "https://icon.icepanel.io/Technology/svg/React.svg"
   },
   {
     "name":"PYTHON",
@@ -21,7 +21,7 @@
   },
     {
     "name":"FLASK",
-    "image": "https://img.favpng.com/24/6/2/flask-python-web-framework-web-application-tutorial-png-favpng-Bhv4ME7Heb8X0q5D1yQA8DU1L.jpg"
+    "image": "https://icon.icepanel.io/Technology/png-shadow-512/Flask.png"
   }, 
   {
     "name":"SELENIUM",
@@ -29,7 +29,7 @@
   },
   {
     "name":"TAILWIND CSS",
-    "image": "https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"
   },
   {
     "name":"VITE",
