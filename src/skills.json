@@ -1,68 +1,67 @@
-{
-  "skills":{
-  {
+[
+   {
     "name":"JavaScript",
-    "image": "image.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/960px-JavaScript-logo.png"
   },
   {
     "name":"HTML",
-    "image": "image.png"
+    "image": "https://cdn.iconscout.com/icon/free/png-256/free-html-5-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-language-pack-logos-icons-1175208.png"
   },
 {
     "name":"CSS",
-    "image": "image.png"
+    "image": "https://img.icons8.com/fluent/512/css3.png"
   },
 {
     "name":"REACT Js",
-    "image": "image.png"
+    "image": "https://icon.icepanel.io/Technology/svg/React.svg"
   },
   {
     "name":"PYTHON",
-    "image": "image.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
   },
     {
     "name":"FLASK",
-    "image": "image.png"
+    "image": "https://icon.icepanel.io/Technology/png-shadow-512/Flask.png"
   }, 
   {
     "name":"SELENIUM",
-    "image": "image.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Selenium_Logo.png/980px-Selenium_Logo.png"
   },
   {
     "name":"TAILWIND CSS",
-    "image": "image.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"
   },
   {
     "name":"VITE",
-    "image": "image.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1200px-Vitejs-logo.svg.png"
   },
   {
     "name":"GIT",
-    "image": "image.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1200px-Git_icon.svg.png"
   },
   {
     "name":"GITHUB",
-    "image": "image.png"
+    "image": "https://img.icons8.com/ios_filled/512/github.png"
   },
    {
     "name":"VITEST",
-    "image": "image.png"
+    "image": "https://images.seeklogo.com/logo-png/43/2/vitest-logo-png_seeklogo-434979.png"
   },
   {
     "name":"VERCEL",
-    "image": "image.png"
+    "image": "https://www.svgrepo.com/show/327408/logo-vercel.svg"
   },
   {
     "name":"NETLIFY",
-    "image": "image.png"
+    "image": "https://images.seeklogo.com/logo-png/27/2/netlify-logo-png_seeklogo-273744.png"
   },
   {
     "name":"NPM",
-    "image": "image.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/2560px-Npm-logo.svg.png"
   },
   {
     "name":"BOOTSTRAP",
-    "image": "image.png"
-  },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png?20210507000024"
   }
-}
+
+]

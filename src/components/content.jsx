@@ -1,31 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTerminal } from '@fortawesome/free-solid-svg-icons';
 import React, {useState,useEffect} from 'react';
+import data from '../skills.json'; 
 function Content(){
-  const [data, setData] = useState([]);
-  const [error, setError] = useState(null);
-useEffect(()=>{
-    const fetchData = async ()=>{
-      try{
-        const response = await fetch('../skills.json');
-        console.log(response)
-        if(!response.ok){
-          throw new error('response not ok');
-        }
-        const skills = await response.json();
-        console.log(skills);
-        setData(skills);
 
 
-      }
-      catch(err){
-        setError(err.message);
-      }
-    }
-  fetchData();
-  }
-
-    ,[]);
   return <>
     <section class=" w-full h-fit">
     <div class="w-full h-full">
