@@ -2,28 +2,28 @@
   {
     "id" : 1,
     "Name" : "Green Haven",
-    "image" : "../src/assets/greenhaven.png",
+    "image" : "https://github.com/mohamed-chafik/My_portfolio/blob/master/src/assets/greenhaven.png?raw=true",
     "stack" : ["HTML","CSS","JavaScript","API"],
     "link" : "https://greenhaven1.netlify.app/"
   },
   {
     "id" : 2,
     "Name" : "EaroGames",
-    "image" : "../src/assets/earogames.png",
+    "image" : "https://github.com/mohamed-chafik/My_portfolio/blob/master/src/assets/earogames.png?raw=true",
     "stack" : ["HTML","CSS","JavaScript","API"],
     "link" : "https://earogames.netlify.app/"
   },
     {
     "id" : 3,
     "Name" : "loudly",
-    "image" : "../src/assets/loudly.png",
+    "image" : "https://github.com/mohamed-chafik/My_portfolio/blob/master/src/assets/loudly.png?raw=true",
     "stack" : ["React.js","Web Speech API","NewsAPI","Netlify"],
     "link" : "https://loudlly.netlify.app/"
   },
  {
     "id" : 4,
     "Name" : "BookLet",
-    "image" : "../src/assets/booklet.png",
+    "image" : "https://github.com/mohamed-chafik/My_portfolio/blob/master/src/assets/booklet.png?raw=true",
     "stack" : ["Python","Flask","Open Library","Vercel"],
     "Link" : "https://book-let-w2nf.vercel.app/"
   }
