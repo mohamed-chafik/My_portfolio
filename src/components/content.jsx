@@ -29,7 +29,7 @@ useEffect(()=>{
   return <>
     <section class=" w-full h-fit">
     <div class="w-full h-full">
-    <h2 class="font-acme text-4xl items-center flex pl-[17px] text-white"><FontAwesomeIcon  icon={faTerminal} size="xs"/>Technical Skills</h2>
+    <h2 class="font-acme text-4xl items-center flex pl-[17px] text-white"><FontAwesomeIcon  icon={faTerminal} size="xs"  className='text-[#00f050] w-[36px]'/>Technical Skills</h2>
     <div class="w-full h-fit p-[75px] flex flex-wrap justify-center">
             {data.map((item) => (
             <a class="w-fit h-fit flex justify-center items-center  p-[12px] m-[12px] rounded-md bg-[#ffffff0a] hover:bg-violet-600 cursor-pointer" >
