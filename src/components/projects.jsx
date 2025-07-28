@@ -16,7 +16,8 @@ function Projects(){
       <div className='w-full flex'>
         <div className='w-[65%]'>
           {projects.map((project) => (
-            <div 
+            <a href={project.link}>
+<div 
               key={project.id} 
               className='w-full h-fit mb-8'
               onMouseEnter={() => setHoveredProject(project.id)}
@@ -45,7 +46,9 @@ function Projects(){
                 </div>
               </div>
             </div>
-          ))}
+
+            </a>
+            ))}
         </div>
 
         {/* Image container (fixed position) */}
