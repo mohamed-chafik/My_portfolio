@@ -5,7 +5,7 @@ const Button = () => {
     const pdfPath = '../assets/Mohamed Chafik.pdf';
   return (
     <StyledWrapper>
-<a href='https://drive.google.com/file/d/1HSY3mHcL-B9KP1yjoO2JsDVRexTF6NDd/view' download='mohamed_chafik.pdf'>
+<a href='https://drive.google.com/file/d/1XZOtMfiS6vNEpduSh0rJjIjst4unFc_D/view' download='mohamed_chafik.pdf'>
             <button className="button mt-[20px]">
         <div className="dots_border" />
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="sparkle">
